@@ -1,78 +1,109 @@
 # Retail & Marketing Analytics Project
 
 ## Overview
-A final academic certification project delivering retail and marketing analytics for customer segmentation, sales performance, and dashboard storytelling.
+This repository contains a complete retail and marketing analytics certification project focused on customer segmentation, sales optimization, and business reporting.
+
+The analysis uses a transactional retail dataset from Kaggle and demonstrates a full analytics workflow from data preparation through modeling, KPI development, and dashboard-ready output.
 
 ## What’s included
-- `Capstone2_Retail_and_Marketing_Analytics_Project.ipynb` — core analysis notebook
-- `retail_marketing_project.md` — project plan, instructions, and documentation
-- `data/raw/` — raw data files
-- `data/processed/` — cleaned and transformed datasets
+- `Capstone2_Retail_and_Marketing_Analytics_Project.ipynb` — main project notebook
+- `Retail_Marketing_Analytics_Project.pdf` — full project report and summary
+- `retail_marketing_project.md` — project instructions and documentation
+- `data/raw/` — original raw dataset files
+- `data/processed/` — cleaned and transformed datasets ready for analysis
 - `outputs/figures/` — generated visualizations and charts
 - `outputs/reports/` — summary reports and KPI outputs
-- `docs/` — supporting documentation and data dictionary
-- `dashboards/` — dashboard assets (placeholder folder)
+- `docs/data_dictionary.csv` — data dictionary and feature definitions
+- `dashboards/.gitkeep` — placeholder for dashboard assets
+- `requirements.txt` — Python dependency list
+- `LICENSE` — MIT license
 
-## Key goals
-- Clean and prepare sales data
-- Explore customer behavior and product performance
-- Generate RFM and CLV insights
-- Build actionable retail marketing recommendations
-- Support analysis with visual storytelling and dashboards
+## Project objectives
+- Identify customer segments using RFM analysis and K-Means clustering
+- Analyze sales trends, seasonality, and product performance
+- Evaluate customer lifetime value and marketing efficiency
+- Build a KPI framework for retail business monitoring
+- Prepare dashboard-ready outputs for stakeholder communication
 
-## How to use this repo
-1. Clone the repository:
+## Business problem
+A multi-channel retail business needs better insight into customer behavior, product performance, and marketing efficiency. This project addresses:
+- declining customer retention
+- unclear customer segments and buying patterns
+- inconsistent sales across categories and regions
+- lack of data-driven KPI monitoring
+
+## Key business questions
+1. Who are our most valuable customers?
+2. What drives customer retention and churn?
+3. How can product mix and inventory be optimized?
+4. Which marketing actions deliver the highest ROI?
+5. What are the most important KPIs to track?
+
+## Data source
+- Primary dataset: Kaggle Retail Sales Dataset
+- Type: Transactional retail sales data
+- Size: approximately 10,000 transactions
+- Time period: 2022–2024
+
+## Project workflow
+1. Data preparation
+   - Acquire and inspect raw data
+   - Clean missing values and outliers
+   - Engineer features and optimize data types
+2. Exploratory analysis
+   - Analyze distributions and relationships
+   - Review time-series and seasonal patterns
+   - Examine customer and product performance
+3. Advanced analytics
+   - Perform RFM analysis
+   - Apply K-Means clustering for customer segmentation
+   - Calculate customer lifetime value (CLV)
+   - Conduct cohort and retention analysis
+4. KPI and reporting
+   - Build a KPI framework
+   - Generate monthly and category reports
+   - Prepare executive summary findings
+   - Support dashboard-ready storytelling
+
+## Tools and technologies
+- Python: pandas, numpy, scikit-learn, scipy, statsmodels
+- Visualization: matplotlib, seaborn, plotly
+- Analysis environment: Jupyter Notebook
+- Dashboard support: Power BI / Tableau
+- Version control: Git & GitHub
+- Data access: Kaggle API
+
+## Learning outcomes
+- End-to-end analytics workflow for retail marketing
+- Data cleaning, exploratory analysis, and feature engineering
+- Customer segmentation using RFM and clustering
+- KPI design and business performance measurement
+- Dashboard preparation and executive reporting
+
+## Getting started
 ```bash
+# Clone the repository
 git clone https://github.com/satyadev45/Retail-And-Marketing-Analytics-Project.git
 cd "Retail And Marketing Analytics Project"
-```
-2. Create and activate a Python environment:
-```bash
+
+# Create and activate a Python environment
 python -m venv venv
-# Windows
 venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-```
-3. Install dependencies:
-```bash
+
+# Install dependencies
 pip install -r requirements.txt
-```
-4. Open the main notebook:
-```bash
+
+# Start the notebook
 jupyter notebook Capstone2_Retail_and_Marketing_Analytics_Project.ipynb
 ```
 
-## Suggested workflow
-- Start with `retail_marketing_project.md` for the project overview and instructions
-- Review `data/processed/` for cleaned datasets used in analysis
-- Explore `outputs/reports/` for summary metrics and final findings
-- Use the notebook for detailed code, charts, and model steps
-
-## What to highlight in GitHub
-- Clear project purpose and structure
-- Notebook-driven analysis with direct outputs
-- Clean data pipeline separation between `raw` and `processed`
-- Included business insights and recommendations
-- Supporting documentation in `docs/`
-
-## GitHub upload steps
-```bash
-git init
-git add .
-git commit -m "Initial academic certification project upload"
-git branch -M main
-git remote add origin https://github.com/satyadev45/Retail-And-Marketing-Analytics-Project.git
-git push -u origin main
-```
-
 ## Notes
-- Keep the raw data files in `data/raw/` for reproducibility.
-- Use the exact GitHub repository name if it differs from the example URL.
-- Add a repository description and topics after creating the remote repository.
+- Keep the raw data in `data/raw/` for reproducibility.
+- Use `data/processed/` for clean, analysis-ready datasets.
+- The repo is already connected to GitHub and ready for collaboration.
 
 ## Author
 Satyadev
 
 ---
-*This repository is prepared for an academic certification final project.*
+*This repository is organized for a professional academic certification project.*
