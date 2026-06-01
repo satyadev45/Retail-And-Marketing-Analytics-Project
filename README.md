@@ -23,8 +23,8 @@ A final academic certification project delivering retail and marketing analytics
 ## How to use this repo
 1. Clone the repository:
 ```bash
-git clone https://github.com/<yourusername>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/satyadev45/Retail-And-Marketing-Analytics-Project.git
+cd "Retail And Marketing Analytics Project"
 ```
 2. Create and activate a Python environment:
 ```bash
@@ -62,13 +62,13 @@ git init
 git add .
 git commit -m "Initial academic certification project upload"
 git branch -M main
-git remote add origin https://github.com/<yourusername>/<repo-name>.git
+git remote add origin https://github.com/satyadev45/Retail-And-Marketing-Analytics-Project.git
 git push -u origin main
 ```
 
 ## Notes
 - Keep the raw data files in `data/raw/` for reproducibility.
-- Replace `<yourusername>` and `<repo-name>` with your GitHub details.
+- Use the exact GitHub repository name if it differs from the example URL.
 - Add a repository description and topics after creating the remote repository.
 
 ## Author
