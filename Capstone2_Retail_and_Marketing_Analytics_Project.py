@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # Auto-exported from Capstone2_Retail_and_Marketing_Analytics_Project.ipynb
+# Author: Satyadev
+# Date: June 1, 2026
 
 # Retail & Marketing Analytics Project
 # Part 1: Data Acquisition and Setup
@@ -7,7 +9,7 @@
 """
 Project: Retail & Marketing Analytics - Customer Segmentation & Sales Optimization
 Notebook: 01 - Data Acquisition and Setup
-Author: [Ashok]
+Author: Satyadev
 Date: [Current Date]
 
 Objective:

@@ -103,7 +103,8 @@ jupyter notebook Capstone2_Retail_and_Marketing_Analytics_Project.ipynb
 - The repo is already connected to GitHub and ready for collaboration.
 
 ## Author
-Satyadev
+Satyadev  
+*Last updated: June 1, 2026*
 
 ---
 *This repository is organized for a professional academic certification project.*
