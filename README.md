@@ -72,7 +72,7 @@ git push -u origin main
 - Add a repository description and topics after creating the remote repository.
 
 ## Author
-Your Name
+Satyadev
 
 ---
 *This repository is prepared for an academic certification final project.*
